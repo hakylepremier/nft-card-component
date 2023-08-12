@@ -1,0 +1,82 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="style.css" />
+
+		<title>Frontend Mentor | NFT preview card component</title>
+
+		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+		<style>
+			.attribution {
+				font-size: 11px;
+				text-align: center;
+				position: fixed;
+				bottom: 10px;
+				left: 50%;
+				transform: translateX(-50%);
+			}
+			.attribution a {
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+		<main class="main">
+			<figure class="main__img">
+				<img src="./images/image-equilibrium.jpg" alt="" class="img" />
+				<figure class="img__hover">
+					<img src="./images/icon-view.svg" alt="" />
+				</figure>
+			</figure>
+
+			<article class="main__text">
+				<h1>
+					<a class="title">Equilibrium #3429</a>
+				</h1>
+				<p class="content">
+					Our Equilibrium collection promotes balance and calm.
+				</p>
+
+				<article class="detail">
+					<p class="detail__price detail__text">
+						<img src="./images/icon-ethereum.svg" alt="clock" />
+						<span>0.041 ETH</span>
+					</p>
+					<p class="detail__period detail__text">
+						<img src="./images/icon-clock.svg" alt="clock" />
+						<span>3 days left</span>
+					</p>
+				</article>
+			</article>
+
+			<article class="creator">
+				<img src="./images/image-avatar.png" alt="" class="creator__img" />
+				<p class="creator__text">
+					Creation of <a href="#" class="creator__name">Jules Wyvern</a>
+				</p>
+			</article>
+		</main>
+
+		<footer class="attribution">
+			Challenge by
+			<a
+				href="https://www.frontendmentor.io?ref=challenge"
+				target="_blank"
+				rel="noopener"
+				>Frontend Mentor</a
+			>. Coded by <a href="https://www.humphreyyeboah.com">Humphrey Yeboah</a>.
+		</footer>
+	</body>
+</html>
